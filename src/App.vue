@@ -1,13 +1,20 @@
 <template>
   <div id="app">
     <mk-avatar src="./1.png"/>
+    <mk-avatar :src="logo"/>
   </div>
 </template>
 
 <script>
+import Logo from './assets/logo.png'
 
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {
+      logo: Logo
+    }
+  }
 }
 </script>
 

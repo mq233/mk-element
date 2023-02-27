@@ -77,9 +77,9 @@ const buildConfig = {
       .include
       .add('/packages')
       .end()
-      .use('eslint-loader')
-      .loader('eslint-loader')
-      .end()
+      // .use('eslint-loader')
+      // .loader('eslint-loader')
+      // .end()
       .use('vue-loader')
       .loader('vue-loader')
       .tap(options => {
