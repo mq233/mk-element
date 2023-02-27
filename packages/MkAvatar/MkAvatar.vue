@@ -1,5 +1,5 @@
 <template>
-  <el-image>
+  <el-image v-bind="$attrs" v-on="$listeners">
     <div slot="error">
       <img :src="defaultIcon" alt="avatar">
     </div>
